@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-31T11:28:44 IST" name="Suite" finished-at="2025-12-31T11:28:44 IST" duration-ms="226">
+    <groups>
+      <group name="smoke">
+        <method signature="Demo1Test.m1()[pri:0, instance:jenkins.Demo1Test@689604d9]" name="m1" class="jenkins.Demo1Test"/>
+        <method signature="Simple1Test.m3()[pri:0, instance:jenkins.Simple1Test@2a65fe7c]" name="m3" class="jenkins.Simple1Test"/>
+        <method signature="sample1Test.m1()[pri:0, instance:jenkins.sample1Test@4135c3b]" name="m1" class="jenkins.sample1Test"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-12-31T11:28:44 IST" name="Test" finished-at="2025-12-31T11:28:44 IST" duration-ms="226">
+      <class name="jenkins.Demo1Test">
+        <test-method signature="m1()[pri:0, instance:jenkins.Demo1Test@689604d9]" started-at="2025-12-31T11:28:44 IST" name="m1" finished-at="2025-12-31T11:28:44 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+      </class> <!-- jenkins.Demo1Test -->
+      <class name="jenkins.Simple1Test">
+        <test-method signature="m3()[pri:0, instance:jenkins.Simple1Test@2a65fe7c]" started-at="2025-12-31T11:28:44 IST" name="m3" finished-at="2025-12-31T11:28:44 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m3 -->
+      </class> <!-- jenkins.Simple1Test -->
+      <class name="jenkins.sample1Test">
+        <test-method signature="m1()[pri:0, instance:jenkins.sample1Test@4135c3b]" started-at="2025-12-31T11:28:44 IST" name="m1" finished-at="2025-12-31T11:28:44 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+      </class> <!-- jenkins.sample1Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
